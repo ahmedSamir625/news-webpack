@@ -1,0 +1,9 @@
+:root {
+  --primary-color: rgb(12, 39, 71);
+  --secondary-color: rgb(140, 158, 252);
+  --font-color:white;
+}
+
+$primary: var(--primary-color);
+$secondary: var(--scondary-color);
+$fontColor:var(--font-color)

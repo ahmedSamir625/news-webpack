@@ -1,0 +1,63 @@
+/*!****************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/styles.scss ***!
+  \****************************************************************************************************************************************************/
+.coutry-card {
+  height: 250px;
+  width: 150px;
+  min-height: 220px;
+  min-width: 150px;
+  background-color: white;
+  margin: 10px;
+}
+
+.countries-slider {
+  overflow-x: scroll;
+}
+
+:root {
+  --primary-color: rgb(12, 39, 71);
+  --secondary-color: rgb(140, 158, 252);
+  --font-color:white;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  line-height: 1.1;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 7px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9c9c9c;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #585858;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--font-color);
+}
+
+.border-white {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+/*# sourceMappingURL=main.css.map*/
