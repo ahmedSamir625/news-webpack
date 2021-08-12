@@ -1,7 +1,6 @@
+import regeneratorRuntime from "regenerator-runtime";
 import { CountryCard } from "./js/components";
 import  "./styles.scss";
-require("babel-core/register");
-require("babel-polyfill");
 
 const getCountries = async () =>
   (await fetch("https://restcountries.eu/rest/v2/")).json();
