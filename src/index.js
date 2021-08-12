@@ -1,4 +1,4 @@
-import regeneratorRuntime from "regenerator-runtime";
+import "regenerator-runtime/runtime.js";
 import { CountryCard } from "./js/components";
 import  "./styles.scss";
 
